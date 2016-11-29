@@ -1,0 +1,23 @@
+#container{
+	border: 30px solid rgba(128, 128, 128, 0.73);
+	width: 60%;
+	margin: 12%;
+	margin-top: 30px;
+	padding: 4%;
+}
+
+
+
+.header{
+	font-family: 'Trirong', serif;
+	font-size : 30px;
+}
+
+p{
+	font-family: 'Trirong', serif;
+}
+
+.para1{
+	border-left: 10px solid rgba(128, 128, 128, 0.73);
+	padding-left: 4%;
+}
