@@ -1,0 +1,73 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.square {
+	width: 30%;
+    background: aqua;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.6%;
+	border-radius: 15%;
+	transition: background 0.5s;
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1{
+	color: aliceblue;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+h1 span{
+	font-size: 1em;
+}
+
+#stripe{
+	background-color: aliceblue;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	background: steelblue;
+	color: white;
+}
+
+#colorDisplay{
+	font-size: 1.5em;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.4s;
+	outline: none;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover{
+	color: white;
+	background: steelblue;
+}

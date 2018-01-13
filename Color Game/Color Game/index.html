@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+</head>
+<body>
+	<h1><span>The Great</span></span><br>
+	<span id="colorDisplay"></span><br>
+	<span>Color Guessing Game</span><br>
+	<span style="font-size: 0.5em;">RGB(255,255,255)=<span style="background: rgb(255,255,255); color: black;">White</span> , RGB(0,0,0)=<span style="background: rgb(0,0,0);color: white;">Black</span>, R+G=<span style="background: rgb(255,255,0);color: black;">Yellow</span>, R+B=<span style="background: rgb(255,0,255);color: black;">Magenta</span>, G+B=<span style="background: rgb(0,255,255);color: black;">Cyan</span></span>
+	
+	</h1>
+	
+	<div id="stripe">
+		<button id="reset">New Game</button>
+		<span id="message"></span>
+		<button id="easyBtn">Easy</button>
+		<button id="hardBtn" class="selected">Hard</button>
+	</div>
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+	<script src="colorGame.js"></script>
+</body>
+</html>
